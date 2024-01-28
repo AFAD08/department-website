@@ -1,0 +1,228 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #033f03;
+    overflow: hidden;
+    border-radius: 24px;
+  }
+  .vector {
+    position: absolute;
+    width: 503.946px;
+    height: 448px;
+    top: -230px;
+    left: 497px;
+    background: url(./assets/images/dbab455e-3058-4e03-a4ca-d6605fd818e4.png)
+      no-repeat center;
+    background-size: cover;
+  }
+  .vector-1 {
+    position: absolute;
+    width: 406.693px;
+    height: 402.754px;
+    top: -213px;
+    left: 49px;
+    background: url(./assets/images/adb652d3-8169-44f1-956f-cfe7f46db6f0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 4;
+  }
+  .frame {
+    position: absolute;
+    width: 693px;
+    height: 1024px;
+    top: 3px;
+    left: 764px;
+    background: #ffffff;
+    transform: rotate(-180deg);
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 24px 0 0 24px;
+  }
+  .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 48px;
+    position: relative;
+    width: 381px;
+    height: 312px;
+    margin: 314px 0 0 83px;
+    background: url(./assets/images/d8939af8-3b6b-4b51-aad7-0c212513f735.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .frame-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 393px;
+    margin: 95px 0 0 71px;
+    padding: 12px 0 12px 0;
+    cursor: pointer;
+    background: #033f03;
+    border: none;
+    transform: rotate(180deg);
+    z-index: 13;
+    border-radius: 12px;
+  }
+  .create-account {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 24px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .frame-4 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 67px;
+    position: relative;
+    width: 383px;
+    height: 48px;
+    margin: 100px 0 0 101px;
+    background: url(./assets/images/b7333239-8ee5-42ae-917b-184c90171c30.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .vector-5 {
+    position: absolute;
+    width: 217px;
+    height: 200.418px;
+    top: 39px;
+    left: 683px;
+    background: url(./assets/images/e7553ac9-0e14-4757-be93-ed7e8cb98ec0.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .vector-6 {
+    position: absolute;
+    width: 300.185px;
+    height: 389px;
+    top: 109px;
+    left: 0;
+    background: url(./assets/images/8e29e7e5-0886-43b2-b0f2-b0cd343b6134.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .frame-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: absolute;
+    width: 566px;
+    height: 176px;
+    top: 180px;
+    left: 90px;
+    z-index: 6;
+  }
+  .welcome-to-student-portal {
+    flex-shrink: 0;
+    position: relative;
+    width: 566px;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .welcome {
+    position: relative;
+    color: #eeeeee;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+  }
+  .student-portal {
+    position: relative;
+    color: #eeeeee;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+  }
+  .login-to-access {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 24px;
+    color: #eeeeee;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .image {
+    position: absolute;
+    width: 810px;
+    height: 723px;
+    top: 373px;
+    left: -38px;
+    background: url(./assets/images/cf2c9f3155547b0990ea1bd9fe27f826b9f110b3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 9;
+  }
+  .vector-8 {
+    position: absolute;
+    width: 1567.26px;
+    height: 1417.987px;
+    top: 518px;
+    left: -183px;
+    background: url(./assets/images/8a246696-894f-400b-845d-6284a1fb5d52.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  
